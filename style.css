@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.flex {
+	display: flex;
+}
+
+.navDiv {
+	background-color: rgb(41, 4, 76);
+	color: white;
+	height: 40px;
+}
+
+.navDiv li {
+	list-style-type: none;
+}
+
+.navList {
+	height: 100%;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+}
+
+.mainDiv {
+	flex-direction: column;
+	height: calc(100vh - 40px);
+	justify-content: center;
+	gap: 10px;
+}
+
+.mainDivPicture {
+	height: 200px;
+	width: fit-content;
+}
+
+.mainDiv * {
+	align-self: center;
+}
+
+.mainDivBtn {
+	background-color: rgb(41, 4, 76);
+	color: white;
+	padding: 10px 30px;
+	border: none;
+}
